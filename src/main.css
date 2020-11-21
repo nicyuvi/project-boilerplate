@@ -16,5 +16,11 @@
       background-repeat: no-repeat; /* Do not repeat the image */
       background-size: cover; /* Resize the background image to cover the entire container */
     }
+
+    .sub-text {
+      background-color: red;
+      font-size: 5rem;
+      color: white;
+    }
   }
 }
