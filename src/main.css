@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @responsive {
+    .text-container {
+      background-color: lightblue;
+    }
+
+    .background-container {
+      background-image: url('./assets/img-2.jpg');
+      background-color: #cccccc; /* Used if the image is unavailable */
+      height: 1000px; /* You must set a specified height */
+      background-position: bottom; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover; /* Resize the background image to cover the entire container */
+    }
+  }
+}
